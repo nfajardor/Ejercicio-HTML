@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <table>
+          <tr>
+            <th>
+              <img
+                src="Foto.jpg"
+                alt="Foto personal de Nicolás Fajardo"
+                width="100"
+                height="150"
+              />
+            </th>
+            <th><h1>Página Nicolás Fajardo</h1></th>
+          </tr>
+        </table>
+      </header>
+    </article>
+    <nav>
+      <a href="#Bienvenida">Mensaje de bienvenida</a>
+      <a href="#Biograficos">Datos biográficos</a>
+      <a href="#Academicos">Datos académicos</a>
+      <a href="#Interes">Sitios de interés</a>
+      <a href="#Contacto">Formulario de contacto</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2 id="Bienvenida">Mensaje de bienvenida</h2>
+        <p>Hola a todos, bienvenidos a mi página web.</p>
+        <p>Esta página se desarrollo con el objetivo de practicar
+          en el uso de HTML.
+        </p>
+        <p>¡Disfruten!</p>
+      </section>
+      <section>
+        <h2 id="Biograficos">Datos biográficos</h2>
+        <p>A continuación se presentan algunos datos biográficos</p>
+        <table>
+          <tr>
+            <th>Dato</th>
+            <th>Valor</th>
+          </tr>
+          <tr>
+            <td>Nombre</td>
+            <td>Nicolás</td>
+          </tr>
+          <tr>
+            <td>Primer apellido</td>
+            <td>Fajardo</td>
+          </tr>
+          <tr>
+            <td>Segundo apellido</td>
+            <td>Ramírez</td>
+          </tr>
+          <tr>
+            <td>Año de nacimiento</td>
+            <td>1999</td>
+          </tr>
+          <tr>
+            <td>Mes de nacimiento</td>
+            <td>Diciembre</td>
+          </tr>
+          <tr>
+            <td>Dia de nacimiento</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>Pais de nacimiento</td>
+            <td>Colombia</td>
+          </tr>
+          <tr>
+            <td>Departamento de nacimiento</td>
+            <td>Santander</td>
+          </tr>
+          <tr>
+            <td>Ciudad de nacimiento</td>
+            <td>Floridablanca</td>
+          </tr>
+          <tr>
+            <td>Educación primaria y secundaria</td>
+            <td>Gimnasio de los Cerros</td>
+          </tr>
+          <tr>
+            <td>Educación profesional</td>
+            <td>Universidad de los Andes</td>
+          </tr>
+        </table> 
+      </section>
+      <section>
+        <h2 id="Academicos">Datos académicos</h2>
+        <p>A continuación se presentan algunos datos académicos</p>
+        <h3>Programas y opciones académicas</h3>
+        <ul>
+          <li>Ingeniería de sistemas</li>
+          <li>Ingeniería mecánica</li>
+          <li>Lengua y cultura japonesa</li>
+          <li>Computación visual</li>
+        </ul>
+        <h3>Materias actualmente cursadas</h3>
+        <dl>
+          <dt>ARTE1215</dt>
+          <dd>Taller de expresión experimental</dd>
+          <dt>IMEC2411</dt>
+          <dd>Ingeniería de materiales</dd>
+          <dt>IMEC2543</dt>
+          <dd>Dinámica de maquinaria</dd>
+          <dt>ISIS3204</dt>
+          <dd>Infraestructura de comunicaciones</dd>
+          <dt>ISIS3710</dt>
+          <dd>Programación con tecnologías web</dd>
+          <dt>ISIS4823</dt>
+          <dd>Computación visual interactiva</dd>
+        </dl>
+      </section>
+      <section>
+        <h2 id="Interes">Sitios de interés</h2>
+        <h3>Videos favoritos</h3>
+        <iframe src="https://youtu.be/VE_4zHNcieM?t=2" title="Forging a Katana (Japanese Samurai Sword)"></iframe>
+        <br>
+        <iframe src="https://www.youtube.com/watch?v=1O6Qstncpnc" title="Hogwarts Legacy - Official Reveal Trailer"></iframe>
+        <br>
+        <iframe src="https://www.youtube.com/watch?v=3_lUOmGuoMc" title="Drawing Saint Seiya: Pegasus Seiya | drawholic"></iframe>
+        <h3>Enlaces de interés</h3>
+        <h3>Imágenes</h3>
+      </section>
+      <section>
+        <h2 id="Contacto">Formulario de contacto</h2>
+        <form>
+          <div>
+            <label for="Nombre">Nombre</label>
+            <br>
+            <input type="text" id="Nombre">
+          </div>
+          <div>
+            <label for="Email">Correo electrónico</label>
+            <br>
+            <input type="email" id="Email">
+          </div>
+          <div>
+            <label for="Mensaje">Mensaje</label>
+            <br>
+            <textarea id="Mensaje"></textarea>
+          </div>
+          <div>
+            <input type="reset" value="Borrar datos">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h2>Mis redes</h2>
+      <a href="https://www.facebook.com/nicolas.fajardo.562"><img src="Facebook.png" alt="Facebook" width="50" height="50"></a>
+      <a href="https://twitter.com/Nifaranifara"><img src="Twitter.png" alt="Twitter" width="90" height="50"></a>
+    </footer>
+  </body>
+</html>
